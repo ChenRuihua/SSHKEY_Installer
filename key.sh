@@ -12,7 +12,7 @@ echo '============================
 cd ~
 mkdir .ssh
 cd .ssh
-curl https://github.com/$1.keys > authorized_keys
+echo 'ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDdeKR+AiTcp/3iT+tSEa0XvE9Svb4mj8a0C6YIRGX3d8WKNm9Aaf/mXXJEdglFkJyTM+VXFSCkdS1bAEVTEkojAxEL4l5IiGjEOI9DLCS1v+6l0NozQB6ULC3BIoIazsf31uj1qIN+NJa8m69db2gfXp711Db0H5mF3CVHbxT5VQeI1/UV0lJ1kZ6l5aS7lU33o8McGT2W3NzkYlTPVIxzlApLb0qrmPgbFqDIaYFeB4LjHVjyzHga4qxEpUUil3Gfy5s1IXwCQaG6SIJiqga2wbBhgOYzn/PP7hl+YlzLjnb/aTi+i4tsXm4plDNMj+Eu113Lnhk1DAuvus+sQH+V' > authorized_keys
 chmod 700 authorized_keys
 cd ../
 chmod 600 .ssh
