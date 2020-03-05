@@ -7,3 +7,7 @@
 ``` bash
 wget https://github.com/ChenRuihua/SSHKEY_Installer/raw/master/key.sh --no-check-certificate&& bash key.sh
 ```
+
+``` bash
+wget https://github.com/ChenRuihua/SSHKEY_Installer/raw/master/key_allow_pass.sh --no-check-certificate&& bash key_allow_pass.sh
+```
